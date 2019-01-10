@@ -32,17 +32,23 @@
 %%PORTDOCS%%%%DOCSDIR%%/config/rest/index.html
 %%PORTDOCS%%%%DOCSDIR%%/config/rest/swagger.yml
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/h2-3.8-all.sql
-%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/h2-upgrade-3.7-3.8.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/h2-3.9-all.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/h2-upgrade-3.8-3.9.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-3.8-all-utf8mb4.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-3.8-all.sql
-%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-upgrade-3.7-3.8-utf8mb4.sql
-%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-upgrade-3.7-3.8.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-3.9-all-utf8mb4.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-3.9-all.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-upgrade-3.8-3.9-utf8mb4.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/mysql-upgrade-3.8-3.9.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/oracle-3.8-all.sql
-%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/oracle-upgrade-3.7-3.8.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/oracle-3.9-all.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/oracle-upgrade-3.8-3.9.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/postgresql-3.8-all.sql
-%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/postgresql-upgrade-3.7-3.8.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/postgresql-3.9-all.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/postgresql-upgrade-3.8-3.9.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/sqlserver-3.8-all.sql
-%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/sqlserver-upgrade-3.7-3.8.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/sqlserver-3.9-all.sql
+%%PORTDOCS%%%%DOCSDIR%%/config/sql/_all/sqlserver-upgrade-3.8-3.9.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/activiti/activiti.h2.create.engine.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/activiti/activiti.h2.create.history.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/activiti/activiti.h2.create.identity.sql
@@ -65,7 +71,6 @@
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/midpoint/3.8/postgresql/postgresql-3.8.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/midpoint/3.8/sqlserver/sqlserver-3.8.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/quartz/tables_h2.sql
-%%PORTDOCS%%%%DOCSDIR%%/config/sql/quartz/tables_mysql.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/quartz/tables_mysql_innodb.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/quartz/tables_oracle.sql
 %%PORTDOCS%%%%DOCSDIR%%/config/sql/quartz/tables_postgres.sql
@@ -214,6 +219,7 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/evolveum/security-policy.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/evolveum/system-configuration.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/evolveum/value-policy-nonce.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/forms/form-post-authentication.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/forms/form-registration.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/forms/form-reset-password.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/hogwarts/accounts.csv
@@ -330,6 +336,8 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/objects/user-jack.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/objects/user-template-complex.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/objects/users-of-low-moral-fiber.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/objects/users_view_collection.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/objects/users_view_configuration.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/org/org-monkey-island-simple.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/org/org-top.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/policy/meta/policies-meta-approval.xml
@@ -343,6 +351,7 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/policy/value-policy/permissive-password-policy.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/reports/logins-in-last-24-hours.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/reports/report-user-list-advanced.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/reports/report-work-items.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/reports/report-workflow.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/389ds/389ds-legacy-connector.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/389ds/389ds-localhost-medium.xml
@@ -679,6 +688,7 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/multitenant-idm-saas/valuePolicies/normal-password-policy.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/multitenant-idm-saas/valuePolicies/stronger-password-policy.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/multitenant-idm-saas/valuePolicies/verystrong-password-policy.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/multitenant-simple/multitenant-orgs-users-roles.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/password-hash/csv.csv
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/password-hash/resource-csv.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/password-hash/security-policy.xml
@@ -728,7 +738,7 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/unix-management/resource-unix-advanced.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/stories/unix-management/role-assignment-inducement-metarole.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/target/maven-archiver/pom.properties
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/target/samples-3.8-tests.jar
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/target/samples-3.9-tests.jar
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/advanced-task-scheduling.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/add-user.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/assign-enduser-role-to-selected-users-no-approval.xml
@@ -738,6 +748,7 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/disable-selected-users.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/discover-rebind.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/generate-passwords.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/list-encryption-keys.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/list-selected-resource-objects-2.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/list-selected-resource-objects-3.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/list-selected-resource-objects-items.xml
@@ -756,6 +767,7 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/recompute-users-without-nickname-starting-on-b.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/recompute-users-without-nickname.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/recompute-users.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/reencrypt-selected-objects.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-arbitrary-code-close-campaign.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-async-execution.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-orgs.xml
@@ -793,6 +805,9 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/task-user-recompute-selected-users-only.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/task-user-recompute.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/task-validity-partitioned.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/templates/task-template-change-description-start-2.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/templates/task-template-change-description-start.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/templates/task-template-change-description.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testng-integration.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testng-unit.xml
 @dir %%JAVASHAREDIR%%/icf-connectors
