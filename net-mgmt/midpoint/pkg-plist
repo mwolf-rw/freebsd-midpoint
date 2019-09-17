@@ -399,6 +399,8 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/edirectory/example.ldif
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/edirectory/resource-edirectory-nosync.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/edirectory/resource-ldap-edirectory-legacy.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/eduid/basic-eduid-affiliation.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/eduid/resource-eduid.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/gitlab/basic-role-for-group.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/gitlab/basic-role-for-project.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/gitlab/basic-role-for-user.xml
@@ -419,6 +421,11 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/gitlab/role-permission-master.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/gitlab/role-permission-owner.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/gitlab/role-permission-reporter.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/grouper/function-library-grouper.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/grouper/resource-grouper.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/grouper/task-async-update.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/grouper/task-reconciliation-groups.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/grouper/task-reconciliation-users.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/googleapps/googleapps-resource.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/jira/GroupAdministratorOfProject-role.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/jira/GroupDeveloperOfProject-role.xml
@@ -447,6 +454,12 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/manual/resource-semi-manual-csv.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/manual/semi-manual.csv
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/misc/resource-gitlab.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/msgraph/basic-role-for-user.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/msgraph/extensions/connector-extension-msgraph.xsd
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/msgraph/mandatory-attributes-for-microsoft-azure-ad-group.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/msgraph/mandatory-attributes-for-microsoft-azure-ad-user.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/msgraph/object-template-for-group.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/msgraph/resource-msgraph-connector.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/mysqluser/init-mysql.sql
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/mysqluser/mysqluser-localhost-advanced-nosync.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/mysqluser/mysqluser-localhost-simple.xml
@@ -477,6 +490,10 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/openldap/olcAccess.ldif
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/openldap/openldap-localhost-advanced-sync-modifytimestamp.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/openldap/openldap-localhost-medium.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/openstack/mandatory-description.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/openstack/object-template-for-project.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/openstack/projectId_roleId.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/openstack/resource-openstack-connector.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/oracle/resource-oracle-medium.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/sap/assignment/extension-sap.xsd
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/resources/sap/assignment/object-template-org.xml
@@ -728,6 +745,8 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/reencrypt-selected-objects.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-arbitrary-code-close-campaign.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-async-execution.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-delay-for-testing-thread-dumps.xml
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-objects-delay.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-orgs.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-users-distinct.xml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/tasks/bulk-actions/script-users-multinode.xml
