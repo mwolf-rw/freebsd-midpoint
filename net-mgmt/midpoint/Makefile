@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	midpoint
-PORTVERSION=	4.0.2
+PORTVERSION=	4.0.3
 CATEGORIES=	net-mgmt java
 MASTER_SITES=	http://evolveum.com/downloads/${PORTNAME}/${PORTVERSION}/
 DISTNAME=	${PORTNAME}-${PORTVERSION}-dist
