@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	midpoint
-PORTVERSION=	4.0.3
+PORTVERSION=	4.4
 CATEGORIES=	net-mgmt java
 MASTER_SITES=	http://evolveum.com/downloads/${PORTNAME}/${PORTVERSION}/
 DISTNAME=	${PORTNAME}-${PORTVERSION}-dist
@@ -22,7 +22,7 @@ LICENSE_PERMS_BITSTREAM=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 USE_RC_SUBR=	midpoint
 
 USE_JAVA=	yes
-JAVA_VERSION=	1.8+
+JAVA_VERSION=	11+
 JAVA_OS=	native
 JAVA_VENDOR=	openjdk oracle
 JAVA_RUN=	yes
